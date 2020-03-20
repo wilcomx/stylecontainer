@@ -8,9 +8,16 @@
     <icon/>
     <properties>
         <propertyGroup caption="General">
-            <property key="sampleText" type="string" required="false">
-                <caption>Default value</caption>
-                <description>Sample text input</description>
+            <property key="content" type="widgets" required="false">
+                <caption>Content</caption>
+                <description>Widgets to place inside.</description>
+            </property>
+            <property key="backgroundColor" type="attribute" required="false">
+                <caption>Background color</caption>
+                <description>Container background color</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
             </property>
         </propertyGroup>
     </properties>
